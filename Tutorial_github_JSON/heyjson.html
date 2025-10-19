@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeyJSON</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HeyJSON</h1>
+    <p>dice que: </p>
+    <p>
+        <span id="accion">
+
+        </span>
+    </p>
+
+    <!--<script src="hey.js"></script>-->
+    <script>
+        fetch('hey.json')
+        .then(response => response.json())
+        .then(json =>{
+            document.getElementById("accion").innerHTML= json.extremidades [0] + " " + json.tamano[0] + " " + json.lado[1];
+            console.log(json);
+        })
+    </script>
+
+</body>
+</html>

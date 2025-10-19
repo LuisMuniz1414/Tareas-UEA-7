@@ -1,0 +1,21 @@
+{
+    "extremidades":
+    [
+        "brazo",
+        "pierna",
+        "dedo"
+    ]
+    ,
+    "tamano":
+    [
+        "enorme",
+        "intermedio",
+        "diminuto"
+    ]
+    ,
+    "lado":
+    [
+        "izquierdo",
+        "derecho"
+    ]
+}
