@@ -3,13 +3,17 @@
     [
         "brazo",
         "pierna",
-        "dedo"
+        "dedo",
+        "mano",
+        "pie"
     ]
     ,
     "tamano":
     [
         "enorme",
+        "grande",
         "intermedio",
+        "pequeño",
         "diminuto"
     ]
     ,
